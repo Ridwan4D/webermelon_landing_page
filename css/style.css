@@ -63,6 +63,13 @@
     border-radius: 50px;
 }
 
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.gap_20 {
+    gap: 20px;
+}
 
 /* common style end */
 #top_section {
@@ -102,7 +109,20 @@
 }
 
 .hero_header_top {
+    max-width: 367px;
     background-color: #92F4AE;
+}
+
+.hero_heading {
+    line-height: 56px;
+}
+
+.hero_portfolio_btn_1 {
+    padding: 16px 25px;
+}
+
+.hero_portfolio_btn_2 {
+    padding: 14px 18px 14px 28px;
 }
 
 /* ----------- hero section end -------------- */
