@@ -182,4 +182,25 @@
 .observer_title{
     color: #595959;
 }
+.observe_body{
+    margin-top: 112px;
+}
+.orserve_urbanits_desc{
+    color: #737373;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 54px;
+    margin-bottom: 38px;
+}
+.orserve_urbanits_desc_span{
+    font-style: italic;
+}
+.observe_ceo_info{
+    color: #181732;
+    font-weight: 300;
+}
+.observer_footer{
+    margin-top: 156px;
+    gap: 52px;
+}
 /* ----------- complete project section end -------------- */
