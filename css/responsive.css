@@ -1,4 +1,23 @@
-@media(max-width: 768px) {
+@media (max-width: 1200px) {
+
+    /* ------- observe section start */
+    .observe_section_logos {
+        width: 145px;
+    }
+
+    /* ------- observe section end */
+}
+@media (max-width: 1024px) {
+
+    /* ------- observe section start */
+    .observe_section_logos {
+        width: 100px;
+    }
+
+    /* ------- observe section end */
+}
+
+@media (max-width: 768px) {
 
     /* --------- navbar section start -------- */
     .navbar-nav,
@@ -13,9 +32,15 @@
     }
 
     /* ---------hero section start -------- */
+    /* ------- observe section start */
+    .observe_section_logos {
+        width: 100px;
+    }
+
+    /* ------- observe section end */
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
     .container {
         padding: 5px 10px;
     }
@@ -65,4 +90,31 @@
     }
 
     /* ------------ hero section end here ------------ */
+
+    /* ------- observe section start */
+    #complete_project_section {
+        padding: 50px 30px;
+    }
+
+    .observe_body {
+        margin-top: 30px;
+    }
+
+    .orserve_urbanits_desc {
+        font-size: 25px;
+        line-height: 41px;
+    }
+
+    .observer_div {
+        padding: 0 15px;
+    }
+
+    .observe_section_logos {
+        width: 225px;
+    }
+    .observer_footer {
+        margin-top: 60px;
+        gap: 35px;
+    }
+    /* ------- observe section end */
 }
