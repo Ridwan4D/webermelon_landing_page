@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --desc-color: #4C4C4C;
+}
 
 * {
     margin: 0;
@@ -10,6 +13,15 @@
     box-sizing: border-box;
 }
 
+.desc_color {
+    color: var(--desc-color);
+}
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    padding: 0px 10px;
+}
 
 .font_inter {
     font-family: "Inter", serif;
@@ -46,3 +58,51 @@
 .text_48 {
     font-size: 48px;
 }
+
+.b_radius_50 {
+    border-radius: 50px;
+}
+
+
+/* common style end */
+#top_section {
+    height: 900px;
+    width: 100%;
+    background-image: url('../images/Rectangle_220.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ----------- nav section start -------------- */
+.navbar {
+    padding: 20px 2px;
+}
+
+.nav-link {
+    color: #101010;
+    line-height: 25px;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav_end_btn {
+    border: none;
+}
+
+/* ----------- nav section start -------------- */
+
+
+/* ----------- hero section start -------------- */
+#hero_section {
+    margin-top: 68px;
+}
+
+.hero_header_top {
+    background-color: #92F4AE;
+}
+
+/* ----------- hero section end -------------- */

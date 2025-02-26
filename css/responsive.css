@@ -1,0 +1,20 @@
+@media(max-width: 600px) {
+    .container {
+        padding: 5px 10px;
+    }
+
+    /* ------------ navbar section start here ------------ */
+    .navbar {
+        border-bottom: 1px solid rgba(41, 41, 41, 0.082);
+    }
+
+    .nav-link {
+        line-height: 20px;
+    }
+
+    .nav_end_btn {
+        border-radius: 3px;
+    }
+
+    /* ------------ navbar section end here ------------ */
+}
