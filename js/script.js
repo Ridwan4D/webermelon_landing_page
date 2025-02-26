@@ -1,4 +1,3 @@
-
 window.addEventListener("load", () => {
     const topSection = document.getElementById("top_section");
     const verticalLines = document.querySelectorAll(".hero_vertical_line_1");
