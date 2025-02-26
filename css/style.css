@@ -160,5 +160,26 @@
 .hero_vertical_line_2 {
     right: 0%;
 }
-
 /* ----------- hero section end -------------- */
+
+/* ----------- complete project section start -------------- */
+#complete_project_section{
+    padding: 128px 30px;
+}
+
+.observer_div{
+    padding: 0 60px;
+}
+
+.observer_info{
+    line-height: 65px;
+}
+
+.observer_info_span{
+    color: #00C663;
+}
+
+.observer_title{
+    color: #595959;
+}
+/* ----------- complete project section end -------------- */
