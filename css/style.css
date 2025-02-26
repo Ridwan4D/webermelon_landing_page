@@ -26,3 +26,23 @@
 .font_urbanist {
     font-family: "Urbanist", serif;
 }
+
+.text_sm {
+    font-size: 14px;
+}
+
+.text_lg {
+    font-size: 18px;
+}
+
+.text_xl {
+    font-size: 20px;
+}
+
+.text_40 {
+    font-size: 40px;
+}
+
+.text_48 {
+    font-size: 48px;
+}
