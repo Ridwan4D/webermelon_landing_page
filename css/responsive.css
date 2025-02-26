@@ -6,6 +6,7 @@
     /* ------------ navbar section start here ------------ */
     .navbar {
         border-bottom: 1px solid rgba(41, 41, 41, 0.082);
+        /* padding: 10px; */
     }
 
     .nav-link {
@@ -17,4 +18,27 @@
     }
 
     /* ------------ navbar section end here ------------ */
+
+    /* ------------ hero section start here ------------ */
+    #hero_section {
+        margin-top: 30px;
+    }
+
+    .hero_header {
+        margin-bottom: 40px;
+    }
+
+    .hero_heading {
+        line-height: 40px;
+    }
+
+    .hero_portfolio_btn_1 {
+        padding: 4px 30px;
+    }
+
+    .hero_portfolio_btn_2 {
+        padding: 4px 18px 4px 28px;
+    }
+
+    /* ------------ hero section end here ------------ */
 }

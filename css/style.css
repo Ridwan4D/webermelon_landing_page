@@ -71,14 +71,18 @@
     gap: 20px;
 }
 
+.gap_30 {
+    gap: 30px;
+}
+
 /* common style end */
 #top_section {
-    height: 900px;
-    width: 100%;
+    height: auto;
     background-image: url('../images/Rectangle_220.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 68px;
 }
 
 /* ----------- nav section start -------------- */
@@ -108,6 +112,10 @@
     margin-top: 68px;
 }
 
+.hero_header {
+    margin-bottom: 72px;
+}
+
 .hero_header_top {
     max-width: 367px;
     background-color: #92F4AE;
@@ -123,6 +131,34 @@
 
 .hero_portfolio_btn_2 {
     padding: 14px 18px 14px 28px;
+}
+
+/* .hero_img_container {
+    border: 2px solid #E4F0FF;
+    border-left: none;
+    border-right: none;
+} */
+.hero_hr {
+    height: 1px;
+    width: 100%;
+    background: #000;
+    background: linear-gradient(to left, #DDECFF, #E4F0FF, #FFFFFF);
+}
+
+.hero_hr_b {
+    bottom: 0;
+}
+
+.hero_vertical_line_1 {
+    width: 1px;
+    background: black;
+    top: -600px;
+    background: linear-gradient(to top, #DDECFF, #E4F0FF, #FFFFFF);
+    z-index: 1;
+}
+
+.hero_vertical_line_2 {
+    right: 0%;
 }
 
 /* ----------- hero section end -------------- */
