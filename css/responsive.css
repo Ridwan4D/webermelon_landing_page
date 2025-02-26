@@ -1,3 +1,20 @@
+@media(max-width: 768px) {
+
+    /* --------- navbar section start -------- */
+    .navbar-nav,
+    .nav_end_btn {
+        padding-left: 20px;
+    }
+
+    /* --------- navbar section end -------- */
+    /* ---------hero section start -------- */
+    #hero_section {
+        margin-top: 30px;
+    }
+
+    /* ---------hero section start -------- */
+}
+
 @media(max-width: 600px) {
     .container {
         padding: 5px 10px;
@@ -38,6 +55,13 @@
 
     .hero_portfolio_btn_2 {
         padding: 4px 18px 4px 28px;
+    }
+
+    .hero_img-1,
+    .hero_img-3 {
+        height: 40vh;
+        object-fit: cover;
+        border-radius: 15px;
     }
 
     /* ------------ hero section end here ------------ */
