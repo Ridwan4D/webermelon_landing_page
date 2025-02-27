@@ -336,3 +336,55 @@
 }
 
 /* ----------- case study section end -------------- */
+
+/* ----------- marquee section start -------------- */
+#marquee_section {
+    padding: 24px 0;
+    background-color: var(--section-bg);
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.marquee {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.marquee_inner {
+    display: flex;
+    width: max-content;
+}
+
+.marquee_list {
+    gap: 47px;
+    margin: 0;
+    animation: marqueeScroll 25s linear infinite;
+}
+
+.marquee_list_item {
+    display: flex;
+    gap: 47px;
+}
+
+.marquee_list_item::before {
+    content: url('../images/green_spot.svg');
+    margin-right: 10px;
+}
+
+/* Keyframes for Infinite Scrolling */
+@keyframes marqueeScroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+/* ----------- marquee section end -------------- */

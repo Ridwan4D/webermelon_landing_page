@@ -220,7 +220,7 @@
 
     /* ------- case section start ----------*/
     #case_study_section {
-        padding: 50px 0;
+        padding: 50px 0 10px;
     }
 
     .case_study_body {
@@ -229,4 +229,16 @@
     }
 
     /* ------- case section end ----------*/
+
+    /* ------- marquee section start ----------*/
+    #marquee_section {
+        padding: 10px 0;
+    }
+
+    .marquee_list,
+    .marquee_list_item {
+        gap: 20px;
+    }
+
+    /* ------- marquee section end ----------*/
 }
