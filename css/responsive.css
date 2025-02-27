@@ -6,6 +6,13 @@
     }
 
     /* ------- observe section end ----------*/
+
+    /* ------- service section start ----------*/
+    .service_card_title {
+        font-size: 30px;
+    }
+
+    /* ------- service section end ----------*/
 }
 
 @media (max-width: 1024px) {
@@ -19,10 +26,20 @@
 
     /* ------- service section start ----------*/
     .service_card_title {
-        font-size: 30px;
+        font-size: 24px;
+    }
+
+    .service_card_img_div {
+        margin-top: 80px;
     }
 
     /* ------- service section end ----------*/
+}
+
+@media (min-width: 784px) and (max-width: 872px) {
+    .service_card_title {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -93,6 +110,7 @@
 
     /* ------- service section end ----------*/
 }
+
 @media (max-width: 767px) {
     .observe_section_logos {
         width: 180px;
