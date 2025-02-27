@@ -7,6 +7,7 @@
 
     /* ------- observe section end */
 }
+
 @media (max-width: 1024px) {
 
     /* ------- observe section start */
@@ -110,11 +111,13 @@
     }
 
     .observe_section_logos {
-        width: 225px;
+        width: 160px;
     }
+
     .observer_footer {
         margin-top: 60px;
         gap: 35px;
     }
+
     /* ------- observe section end */
 }
