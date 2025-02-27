@@ -225,7 +225,11 @@
     margin-top: 156px;
     gap: 52px;
 }
-
+.bg_properties{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /* ----------- complete project section end -------------- */
 
 /* ----------- service section start -------------- */
@@ -294,9 +298,6 @@
 #case_study_section {
     height: auto;
     background-image: url('../images/case_study_bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     padding: 120px 0;
 }
 
@@ -384,7 +385,22 @@
         transform: translateX(-100%);
     }
 }
-
-
-
 /* ----------- marquee section end -------------- */
+
+/* ----------- testimonial section start -------------- */
+#testimonial_section{
+    padding: 120px 0;
+}
+.testimonial_card{
+    border: 1px solid #B7B7B7;
+    border-radius: 16px;
+    background-image: url('../images/testimonial_bg.jpg');
+}
+.testimonial_card_desc{
+    color:#5C5C5C;
+}
+.testimonial_body{
+    margin-top: 18px;
+    color: #5E5E5E;
+}
+/* ----------- testimonial section end -------------- */
