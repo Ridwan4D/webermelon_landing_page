@@ -247,4 +247,40 @@
     height: 22.5px;
 }
 
+.service_card {
+    background-color: #C5E7FF;
+    padding: 32px 24px 0;
+    border-radius: 20px;
+}
+
+.service_card_title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 22px;
+}
+
+.service_card_desc {
+    color: #606060;
+}
+
+.service_card_img_div {
+    margin-top: 110px;
+}
+
+.service_vertical_line {
+    width: 1px;
+    top: -121px;
+    background: linear-gradient(to top, rgba(221, 236, 255, 0.171), rgba(255, 255, 255, 0.123));
+    z-index: 1;
+}
+
+.service_vertical_line_2 {
+    right: 0;
+}
+
+#service_section .hero_hr {
+    width: 98%;
+    background: linear-gradient(to top, rgba(221, 236, 255, 0.171), rgba(255, 255, 255, 0.123));
+}
+
 /* ----------- service section end -------------- */
