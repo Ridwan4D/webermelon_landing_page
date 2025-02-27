@@ -17,6 +17,15 @@
 
 @media (max-width: 1024px) {
 
+    /* common padding */
+    #complete_project_section,
+    #complete_project_section,
+    #case_study_section,
+    #testimonial_section {
+        padding: 70px 0;
+    }
+
+    /* common padding */
     /* ------- observe section start ----------*/
     .observe_section_logos {
         width: 100px;
@@ -233,7 +242,8 @@
     /* ------- service section end ----------*/
 
     /* ------- case section start ----------*/
-    #case_study_section,#testimonial_section {
+    #case_study_section,
+    #testimonial_section {
         padding: 50px 0 10px;
     }
 
