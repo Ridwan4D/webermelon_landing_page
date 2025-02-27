@@ -53,6 +53,10 @@
     font-size: 20px;
 }
 
+.text_2xl {
+    font-size: 24px;
+}
+
 .text_40 {
     font-size: 40px;
 }
@@ -284,3 +288,51 @@
 }
 
 /* ----------- service section end -------------- */
+
+
+/* ----------- case study section start -------------- */
+#case_study_section {
+    height: auto;
+    background-image: url('../images/case_study_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+}
+
+.case_study_body {
+    margin-top: 64px;
+    gap: 64px;
+}
+
+.case_card_info {
+    font-weight: 300;
+    background-color: #C7FFD0;
+    padding: 3.5px 32px;
+    margin-bottom: 14px;
+}
+
+.case_hr_line {
+    height: 1px;
+    left: -418px;
+    background: red;
+    background: linear-gradient(to right, #DDECFF, #FFFFFF);
+}
+
+.case_hr_line_2 {
+    left: 0;
+    background: linear-gradient(to left, #DDECFF, #FFFFFF);
+}
+
+.case_vertical_line {
+    width: 1px;
+    top: -35px;
+    /* z-index: -1; */
+    background: linear-gradient(to top, #DDECFF, #FFFFFF);
+}
+
+.case_vertical_line_2 {
+    right: 0;
+}
+
+/* ----------- case study section end -------------- */

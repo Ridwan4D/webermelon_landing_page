@@ -1,53 +1,60 @@
 @media (max-width: 1200px) {
 
-    /* ------- observe section start */
+    /* ------- observe section start ----------*/
     .observe_section_logos {
         width: 145px;
     }
 
-    /* ------- observe section end */
+    /* ------- observe section end ----------*/
 }
 
 @media (max-width: 1024px) {
 
-    /* ------- observe section start */
+    /* ------- observe section start ----------*/
     .observe_section_logos {
         width: 100px;
     }
 
-    /* ------- observe section end */
+    /* ------- observe section end ----------*/
 
-    /* ------- service section start */
+    /* ------- service section start ----------*/
     .service_card_title {
         font-size: 30px;
     }
 
-    /* ------- service section end */
+    /* ------- service section end ----------*/
 }
 
 @media (max-width: 768px) {
+    .common_btn {
+        padding: 5px 27.5px;
+    }
 
-    /* --------- navbar section start -------- */
+    /* --------- navbar section start -------- ----------*/
     .navbar-nav,
     .nav_end_btn {
         padding-left: 20px;
     }
 
-    /* --------- navbar section end -------- */
-    /* ---------hero section start -------- */
+    /* --------- navbar section end -------- ----------*/
+    /* ---------hero section start -------- ----------*/
     #hero_section {
         margin-top: 30px;
     }
 
-    /* ---------hero section start -------- */
-    /* ------- observe section start */
+    /* ---------hero section start -------- ----------*/
+    /* ------- observe section start ----------*/
     .observe_section_logos {
         width: 100px;
     }
 
-    /* ------- observe section end */
+    /* ------- observe section end ----------*/
 
-    /* ------- service section start */
+    /* ------- service section start ----------*/
+    #service_section {
+        padding: 70px 0;
+    }
+
     .service_heading {
         font-size: 30px;
         line-height: 32px;
@@ -80,7 +87,7 @@
         margin-top: 55px;
     }
 
-    /* ------- service section end */
+    /* ------- service section end ----------*/
 }
 
 @media (max-width: 600px) {
@@ -88,10 +95,10 @@
         padding: 5px 10px;
     }
 
-    /* ------------ navbar section start here ------------ */
+    /* ------------ navbar section start here ------------ ----------*/
     .navbar {
         border-bottom: 1px solid rgba(41, 41, 41, 0.082);
-        /* padding: 10px; */
+        /* padding: 10px; ----------*/
     }
 
     .nav-link {
@@ -102,9 +109,9 @@
         border-radius: 3px;
     }
 
-    /* ------------ navbar section end here ------------ */
+    /* ------------ navbar section end here ------------ ----------*/
 
-    /* ------------ hero section start here ------------ */
+    /* ------------ hero section start here ------------ ----------*/
     #hero_section {
         margin-top: 30px;
     }
@@ -132,9 +139,9 @@
         border-radius: 15px;
     }
 
-    /* ------------ hero section end here ------------ */
+    /* ------------ hero section end here ------------ ----------*/
 
-    /* ------- observe section start */
+    /* ------- observe section start ----------*/
     #complete_project_section {
         padding: 50px 30px;
     }
@@ -161,9 +168,9 @@
         gap: 35px;
     }
 
-    /* ------- observe section end */
+    /* ------- observe section end ----------*/
 
-    /* ------- service section start */
+    /* ------- service section start ----------*/
     #service_section {
         padding: 50px 0;
     }
@@ -182,6 +189,17 @@
         margin-top: 50px;
     }
 
-    /* ------- service section end */
+    /* ------- service section end ----------*/
 
+    /* ------- case section start ----------*/
+    #case_study_section {
+        padding: 50px 0;
+    }
+
+    .case_study_body {
+        margin-top: 40px;
+        gap: 50px;
+    }
+
+    /* ------- case section end ----------*/
 }
