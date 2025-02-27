@@ -44,6 +44,10 @@
 
     /* ---------hero section start -------- ----------*/
     /* ------- observe section start ----------*/
+    .observer_footer {
+        margin-top: 80px;
+    }
+
     .observe_section_logos {
         width: 100px;
     }
@@ -88,6 +92,11 @@
     }
 
     /* ------- service section end ----------*/
+}
+@media (max-width: 767px) {
+    .observe_section_logos {
+        width: 180px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -198,7 +207,7 @@
 
     .case_study_body {
         margin-top: 40px;
-        gap: 50px;
+        gap: 35px;
     }
 
     /* ------- case section end ----------*/
