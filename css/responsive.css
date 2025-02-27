@@ -34,6 +34,12 @@
     }
 
     /* ------- service section end ----------*/
+    /* ------- case study section start ----------*/
+    #case_study_section {
+        padding: 120px 0 80px;
+    }
+
+    /* ------- case study section end ----------*/
 }
 
 @media (min-width: 784px) and (max-width: 872px) {
@@ -109,6 +115,13 @@
     }
 
     /* ------- service section end ----------*/
+
+    /* ------- case study section start ----------*/
+    #case_study_section {
+        padding: 120px 0 50px;
+    }
+
+    /* ------- case study section end ----------*/
 }
 
 @media (max-width: 767px) {
@@ -238,6 +251,10 @@
     .marquee_list,
     .marquee_list_item {
         gap: 20px;
+    }
+
+    .marquee_list {
+        animation: marqueeScroll 20s linear infinite;
     }
 
     /* ------- marquee section end ----------*/
