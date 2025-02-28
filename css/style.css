@@ -415,7 +415,7 @@
 /* ----------- accelerate section start -------------- */
 #accelerate_section {
     background-image: url('../images/accelerate_bg.jpg');
-    padding: 70px 5px;
+    padding: 70px 0;
 }
 
 .accelerate_container {

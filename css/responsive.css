@@ -13,6 +13,12 @@
     }
 
     /* ------- service section end ----------*/
+    /* ------- accelerate section start ----------*/
+    .accelerate_container {
+        border-radius: 16px;
+    }
+
+    /* ------- accelerate section end ----------*/
 }
 
 @media (max-width: 1024px) {
@@ -49,6 +55,24 @@
     }
 
     /* ------- case study section end ----------*/
+    /* ------- accelerate section start ----------*/
+    #accelerate_section {
+        padding: 0;
+    }
+
+    .accelerate_container {
+        border-radius: 0;
+    }
+
+    .accelerate_heading {
+        font-size: 24px;
+    }
+
+    /* .accelerate_v_line {
+        top: -126px;
+    } */
+
+    /* ------- accelerate section end ----------*/
 }
 
 @media (min-width: 784px) and (max-width: 872px) {
@@ -131,6 +155,19 @@
     }
 
     /* ------- case study section end ----------*/
+
+    /* ------- accelerate section start ----------*/
+    .accelerate_container {
+        gap: 30px;
+    }
+
+    .accelerate_img {
+        height: 65vh;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    /* ------- accelerate section end ----------*/
 }
 
 @media (max-width: 767px) {
@@ -275,6 +312,10 @@
         border-radius: 5px;
         padding: 30px 10px;
         gap: 30px;
+    }
+
+    .accelerate_heading {
+        font-size: 26px;
     }
 
     /* ------- accelerate section end ----------*/
