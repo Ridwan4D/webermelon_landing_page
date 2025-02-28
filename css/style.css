@@ -81,6 +81,10 @@
     gap: 30px;
 }
 
+.lh_25 {
+    line-height: 25px;
+}
+
 .lh_56 {
     line-height: 56px;
 }
@@ -430,11 +434,12 @@
 
 .accelerate_hr_line {
     height: 1px;
-    background: linear-gradient(to right, rgba(221, 236, 255, 0.4), rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.01));
+    background: linear-gradient(to right, rgba(221, 236, 255, 0.4), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.01));
     left: -698px;
 }
+
 .accelerate_hr_line_2 {
-    background: linear-gradient(to left, rgba(221, 236, 255, 0.4), rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.01));
+    background: linear-gradient(to left, rgba(221, 236, 255, 0.4), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.01));
 }
 
 .accelerate_v_line {
@@ -448,3 +453,46 @@
 }
 
 /* ----------- accelerate section end -------------- */
+
+/* ----------- footer section start -------------- */
+#footer_section {
+    background: var(--section-bg);
+}
+
+.footer_container {
+    max-width: 1260px;
+}
+
+.footer_left_top {
+    padding: 106px 0;
+}
+
+.footer_start_text {
+    color: #F1E7DE;
+}
+
+.footer_header {
+    margin-bottom: 42px;
+}
+
+.footer_heading_span {
+    color: #8E9BA3;
+}
+
+.footer_address,
+.footer_list_item {
+    color: #BCBCBC;
+}
+
+.footer_right {
+    padding: 61px 0;
+}
+
+.webermelon_logo {
+    opacity: .08;
+    left: 25px;
+}
+.footer_img_div{
+    gap: -1px;
+}
+/* ----------- footer section end -------------- */
