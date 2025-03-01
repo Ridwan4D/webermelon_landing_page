@@ -44,6 +44,7 @@
 .text_xs {
     font-size: 12px;
 }
+
 .text_sm {
     font-size: 14px;
 }
@@ -430,10 +431,19 @@
     background-color: #02033B;
     border-radius: 32px;
     padding: 65px;
+    gap: 75px;
 }
 
 .accelerate_desc {
     color: #B0B0B0;
+}
+
+.accelerate_left {
+    width: 65%;
+}
+
+.accelerate_right {
+    width: 35%;
 }
 
 .accelerate_hr_line {
@@ -443,6 +453,7 @@
 }
 
 .accelerate_hr_line_2 {
+    /* left: 0; */
     background: linear-gradient(to left, rgba(221, 236, 255, 0.4), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.01));
 }
 
