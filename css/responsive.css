@@ -75,10 +75,10 @@
         font-size: 24px;
     }
 
-    .accelerate_left,
+    /* .accelerate_left,
     .accelerate_right {
         width: 50% !important;
-    }
+    } */
 
     .accelerate_hr_line_2 {
         left: -540px;
@@ -173,9 +173,12 @@
         gap: 30px;
     }
 
-    .accelerate_left,
+    .accelerate_left {
+        width: 70% !important;
+    }
+
     .accelerate_right {
-        width: 50% !important;
+        width: 30% !important;
     }
 
     .accelerate_img {
