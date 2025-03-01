@@ -168,6 +168,13 @@
     }
 
     /* ------- accelerate section end ----------*/
+
+    /* ------- footer section end ----------*/
+    .footer_left_top {
+        padding: 25px 0;
+    }
+
+    /* ------- footer section end ----------*/
 }
 
 @media (max-width: 767px) {
@@ -319,4 +326,27 @@
     }
 
     /* ------- accelerate section end ----------*/
+
+    /* ------- footer section start ----------*/
+    .footer_heading {
+        font-size: 30px;
+    }
+
+    .footer_body {
+        gap: 30px;
+    }
+
+    .footer_left_top {
+        padding: 15px 0 45px;
+    }
+
+    .footer_right {
+        padding: 20px 0;
+    }
+
+    .footer_imgs_2 {
+        margin-top: 7px !important;
+    }
+
+    /* ------- footer section end ----------*/
 }
