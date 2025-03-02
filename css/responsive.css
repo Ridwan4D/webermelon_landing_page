@@ -115,7 +115,15 @@
     } */
 
     .accelerate_hr_line_2 {
-        left: -660px;
+        left: -674px;
+    }
+
+    #accelerate_section>.container {
+        padding: 0;
+    }
+
+    .accelerate_container {
+        border-radius: 0;
     }
 
     /* ------- accelerate section end ----------*/
@@ -210,6 +218,14 @@
     /* ------- case study section end ----------*/
 
     /* ------- accelerate section start ----------*/
+    #accelerate_section>.container {
+        padding: 0;
+    }
+
+    .accelerate_container {
+        border-radius: 0;
+    }
+
     .accelerate_container {
         gap: 30px;
     }
@@ -240,6 +256,7 @@
     }
 
     /* ------- footer section end ----------*/
+
 }
 
 
@@ -381,8 +398,12 @@
     /* ------- marquee section end ----------*/
 
     /* ------- accelerate section start ----------*/
+    #accelerate_section>.container {
+        padding: 0;
+    }
+
     .accelerate_container {
-        border-radius: 5px;
+        border-radius: 0;
         padding: 30px 10px;
         gap: 30px;
     }

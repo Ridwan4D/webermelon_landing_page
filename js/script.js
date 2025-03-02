@@ -71,4 +71,12 @@ new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        769: {
+            slidesPerView: 2,
+        },
+        0: {
+            slidesPerView: 1,
+        }
+    }
 });
