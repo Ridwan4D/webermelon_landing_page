@@ -13,6 +13,10 @@
         max-width: 1260px;
         gap: 20px;
     } */
+    .footer_left_top {
+        padding: 106px 0 0px;
+    }
+
     .footer_right {
         width: 44%;
     }
@@ -113,12 +117,14 @@
     .accelerate_hr_line_2 {
         left: -660px;
     }
+
     /* ------- accelerate section end ----------*/
-    
+
     /* ------- footer section start ----------*/
-    .footer_body{
+    .footer_body {
         justify-content: start;
     }
+
     /* ------- footer section end ----------*/
 }
 
