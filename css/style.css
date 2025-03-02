@@ -419,6 +419,10 @@
     color: #5E5E5E;
 }
 
+.swiper-pagination {
+    position: none;
+}
+
 /* ----------- testimonial section end -------------- */
 
 /* ----------- accelerate section start -------------- */

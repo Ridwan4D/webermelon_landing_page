@@ -61,3 +61,14 @@ window.addEventListener("resize", () => {
         });
     }
 });
+
+
+new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    loop: true,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
