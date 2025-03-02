@@ -9,14 +9,16 @@
         left: 233px;
     }
 
-    .footer_container {
+    /* .footer_container {
         max-width: 1260px;
         gap: 20px;
+    } */
+    .footer_right {
+        width: 44%;
     }
 
     .footer_hr_line {
-        height: 1px;
-        left: -583px;
+        left: -806px;
     }
 }
 
@@ -55,7 +57,7 @@
 
     /* ------- footer section end ----------*/
 }
- 
+
 @media (max-width: 1024px) {
 
     /* common padding */
@@ -111,8 +113,13 @@
     .accelerate_hr_line_2 {
         left: -660px;
     }
-
     /* ------- accelerate section end ----------*/
+    
+    /* ------- footer section start ----------*/
+    .footer_body{
+        justify-content: start;
+    }
+    /* ------- footer section end ----------*/
 }
 
 @media (min-width: 784px) and (max-width: 872px) {

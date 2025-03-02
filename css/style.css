@@ -490,8 +490,7 @@
     align-items: center;
 } */
 .footer_container {
-    max-width: 1500px;
-    gap: 200px;
+    gap: 20px;
 }
 
 .footer_left_top {
@@ -520,6 +519,7 @@
 }
 
 .footer_right {
+    right: 0;
     padding: 61px 0;
 }
 

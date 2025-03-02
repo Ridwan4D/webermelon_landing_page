@@ -2,7 +2,7 @@ window.addEventListener("load", updateFooterLines);
 window.addEventListener("resize", updateFooterLines);
 
 function updateFooterLines() {
-    const footerContainer = document.querySelector(".footer_container");
+    const footerContainer = document.getElementById("footer_section");
     const verticalLines = document.querySelectorAll(".footer_v_line");
     const horizontalLines = document.querySelectorAll(".footer_hr_line");
 
