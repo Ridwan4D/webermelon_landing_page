@@ -121,6 +121,7 @@ body {
 /* ----------- nav section start -------------- */
 .navbar {
     padding: 20px 2px;
+    position: relative;
 }
 
 .nav-link {
@@ -135,6 +136,16 @@ body {
 
 .nav_end_btn {
     border: none;
+}
+
+.navbar_collapse_class {
+    position: absolute;
+    top: 55px;
+    z-index: 6000;
+    background: white;
+    width: 95%;
+    border-bottom: 1px solid rgba(87, 86, 86, 0.445);
+    padding-bottom: 5px;
 }
 
 /* ----------- nav section start -------------- */

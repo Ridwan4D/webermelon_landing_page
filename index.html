@@ -17,7 +17,7 @@
 
     <section id="top_section">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light px-2 container mx-lg-auto z-2">
+            <nav class="navbar navbar-expand-lg navbar-light px-2 container mx-lg-auto z-3">
                 <a class="navbar-brand" href="#"><img src="images/site_logo.png" alt="site_logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -25,7 +25,27 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse d-none d-lg-flex justify-content-between"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto d-lg-flex gap-1 gap-lg-5">
+                        <li class="nav-item active">
+                            <a class="nav-link font_inter" href="#service_section">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font_inter" href="#">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font_inter" href="#">About us</a>
+                        </li>
+                    </ul>
+                    <div class="">
+                        <button class="bg-black font_poppins fw-normal py-2 px-4 nav_end_btn b_radius_50"><a href="#"
+                                class="text-decoration-none text-white">Get Started</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse navbar_collapse_class justify-content-between d-lg-none"
+                    id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto d-lg-flex gap-1 gap-lg-5">
                         <li class="nav-item active">
                             <a class="nav-link font_inter" href="#service_section">Services</a>
