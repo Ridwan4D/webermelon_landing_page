@@ -442,8 +442,12 @@ body {
     color: #5E5E5E;
 }
 
-.swiper-pagination {
+.swiper_pagination {
     position: none;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0, 0, 0);
+    margin-top: 20px;
 }
 
 /* ----------- testimonial section end -------------- */

@@ -68,7 +68,7 @@ new Swiper(".mySwiper", {
     loop: true,
     spaceBetween: 30,
     pagination: {
-        el: ".swiper-pagination",
+        el: ".swiper_pagination",
         clickable: true,
     },
     breakpoints: {
