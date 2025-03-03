@@ -119,13 +119,15 @@ body {
 }
 
 /* ----------- nav section start -------------- */
+.navbar{
+    padding: 20px;
+}
 .navbar_collapse_class {
     background: white;
     width: 100%;
     border-bottom: 1px solid rgba(87, 86, 86, 0.445);
-    padding: 10px;
-    padding-top: 85px;
-    margin-top: 0;
+    padding: 65px 0 10px;
+    margin-top: 20px;
     position: fixed;
     top: -100%;
     left: 0;
