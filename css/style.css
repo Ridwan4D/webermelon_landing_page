@@ -127,9 +127,9 @@ body {
     background: white;
     width: 100%;
     border-bottom: 1px solid rgba(87, 86, 86, 0.445);
-    border-bottom-left-radius: 90px;
-    border-bottom-right-radius: 90px;
-    padding: 65px 0 30px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding: 65px 0 50px;
     margin-top: 20px;
     position: fixed;
     top: -100%;
