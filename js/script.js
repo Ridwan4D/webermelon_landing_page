@@ -83,8 +83,8 @@ new Swiper(".mySwiper", {
 
 document.addEventListener('DOMContentLoaded', function () {
     const navbarToggler = document.querySelector('.navbar-toggler');
-    const navbarTogglerIcon = navbarToggler.querySelector('.navbar-toggler-icon');
-    const closeIcon = navbarToggler.querySelector('.close-icon');
+    const navbarTogglerIcon = navbarToggler.querySelector('.hamburger_icon');
+    const closeIcon = navbarToggler.querySelector('.close_icon');
 
     navbarToggler.addEventListener('click', function () {
         const isExpanded = navbarToggler.getAttribute('aria-expanded') === 'true';

@@ -119,35 +119,62 @@ body {
 }
 
 /* ----------- nav section start -------------- */
-.navbar {
-    padding: 20px 2px;
-    position: relative;
-}
-
-.nav-link {
-    color: #101010;
-    line-height: 25px;
-    transition: all .3s ease-in-out;
-}
-
-.nav-link:hover {
-    text-decoration: underline;
-}
-
-.nav_end_btn {
-    border: none;
-}
-
 .navbar_collapse_class {
+    background: white;
+    width: 100%;
+    border-bottom: 1px solid rgba(87, 86, 86, 0.445);
+    padding: 10px;
+    margin-top: 15px;
     position: absolute;
     top: 55px;
+    left: 0;
     z-index: 6000;
-    background: white;
-    width: 95%;
-    border-bottom: 1px solid rgba(87, 86, 86, 0.445);
-    padding-bottom: 5px;
-    margin-top: 15px;
+    opacity: 0;
+    transform: translateY(-20px);
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out;
 }
+
+.navbar_collapse_class.show {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+/* Smooth animation for menu items */
+.navbar_collapse_class ul li {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Delay the menu item animations slightly for a nice effect */
+.navbar_collapse_class.show ul li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+/* Removed border-radius and animation from icons */
+.hamburger_icon,
+.close_icon {
+    width: 44px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.navbar-toggler[aria-expanded="true"] .hamburger_icon {
+    opacity: 0;
+}
+
+.navbar-toggler[aria-expanded="true"] .close_icon {
+    display: block !important;
+}
+
 
 /* ----------- nav section start -------------- */
 
