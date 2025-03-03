@@ -138,7 +138,7 @@ body {
     opacity: 0;
     visibility: hidden;
     transform: translateY(0);
-    transition: top 0.4s ease-in-out, opacity 0.3s ease-in-out;
+    transition: top 0.3s ease-in-out, opacity 0.1s ease-in-out;
 }
 
 .navbar_collapse_class.show {
@@ -163,7 +163,7 @@ body {
 .hamburger_icon,
 .close_icon {
     width: 44px;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
 }
 
 .navbar-toggler[aria-expanded="true"] .hamburger_icon {
