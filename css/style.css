@@ -450,6 +450,16 @@ body {
     margin-top: 20px;
 }
 
+.swiper-pagination-bullet {
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: black !important;
+    opacity: 1;
+}
+
 /* ----------- testimonial section end -------------- */
 
 /* ----------- accelerate section start -------------- */
