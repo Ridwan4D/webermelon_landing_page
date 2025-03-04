@@ -130,7 +130,8 @@ body {
     display: none;
 }
 
-.menu_icon .hamburger_icon {
+.menu_icon .hamburger_icon,
+.circle_icon {
     width: 44px;
     height: 44px;
     border-radius: 100%;
