@@ -375,6 +375,13 @@
     }
 
     /* ------------ navbar section start here ------------ ----------*/
+    .menu_icon .hamburger_icon,
+    .circle_icon {
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+    }
+
     @keyframes slideIn {
         0% {
             top: -100%;
