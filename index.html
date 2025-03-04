@@ -17,52 +17,32 @@
 
     <section id="top_section">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light px-2 container mx-lg-auto z-3">
-                <a class="navbar-brand" href="#"><img src="images/site_logo.png" alt="site_logo"></a>
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="images/hamburger.svg" alt="hamburger" class="hamburger_icon">
-                    <img src="images/circle.svg" alt="circle" class="close_icon" style="display: none;">
-                </button>
-
-                <div class="collapse navbar-collapse d-none d-lg-flex justify-content-between"
-                    id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto d-lg-flex gap-1 gap-lg-5">
-                        <li class="nav-item active">
-                            <a class="nav-link font_inter" href="#service_section">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font_inter" href="#">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font_inter" href="#">About us</a>
-                        </li>
-                    </ul>
-                    <div class="">
-                        <button class="bg-black font_poppins fw-normal py-2 px-4 nav_end_btn b_radius_50"><a href="#"
-                                class="text-decoration-none text-white">Get Started</a>
-                        </button>
-                    </div>
+            <nav class="container mx-auto navbar position-relative justify-content-between align-items-center">
+                <div>
+                    <img src="images/site_logo.png" alt="site_logo" class="site_logo">
                 </div>
-                <div class="collapse navbar_collapse_class justify-content-between d-lg-none"
-                    id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto d-flex justify-content-center align-items-center gap-1 gap-lg-5">
-                        <li class="nav-item active">
-                            <a class="nav-link font_inter" href="#service_section">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font_inter" href="#">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font_inter" href="#">About us</a>
-                        </li>
-                    </ul>
-                    <div class=" d-flex justify-content-center align-items-center">
+                <ul class="d-flex gap_30 nav_list" id="nav_list">
+                    <li><a href="#"
+                            class="text-decoration-none text-black font_inter fw-normal nav_list_item">Service</a></li>
+                    <li><a href="#" class="text-decoration-none text-black font_inter fw-normal nav_list_item">Contact
+                            us</a></li>
+                    <li><a href="#" class="text-decoration-none text-black font_inter fw-normal nav_list_item">About
+                            us</a></li>
+                    <li class="nav_list_item d-md-none">
                         <button class="bg-black font_poppins fw-normal py-2 px-4 nav_end_btn b_radius_50"><a href="#"
                                 class="text-decoration-none text-white">Get Started</a>
                         </button>
-                    </div>
+                    </li>
+                </ul>
+                <div class="d-none d-md-block">
+                    <button class="bg-black font_poppins fw-normal py-2 px-4 nav_end_btn b_radius_50"><a href="#"
+                            class="text-decoration-none text-white">Get Started</a>
+                    </button>
+                </div>
+                <div class="menu_icon">
+                    <a href="#" onclick="toggleMenu()">
+                        <img src="images/hamburger.svg" alt="hamburger" class="hamburger_icon">
+                    </a>
                 </div>
             </nav>
         </header>
@@ -640,6 +620,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- swiper cdn -->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/nav.js"></script>
     <script src="js/script.js"></script>
     <script src="js/serviceLine.js"></script>
     <script src="js/case_line.js"></script>

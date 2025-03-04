@@ -81,29 +81,3 @@ new Swiper(".mySwiper", {
     }
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    const navbarToggler = document.querySelector('.navbar-toggler');
-    const navbarTogglerIcon = navbarToggler.querySelector('.hamburger_icon');
-    const closeIcon = navbarToggler.querySelector('.close_icon');
-
-    navbarToggler.addEventListener('click', function () {
-        const isExpanded = navbarToggler.getAttribute('aria-expanded') === 'true';
-
-        if (isExpanded) {
-            // Nav is open, show cross icon
-            navbarTogglerIcon.style.display = 'none';
-            closeIcon.style.display = 'block';
-        } else {
-            // Nav is closed, show hamburger icon
-            navbarTogglerIcon.style.display = 'block';
-            closeIcon.style.display = 'none';
-        }
-    });
-
-    // Listen for collapse events to ensure the icon updates when the navbar closes
-    const navbarCollapse = document.querySelector('#navbarSupportedContent');
-    navbarCollapse.addEventListener('hidden.bs.collapse', function () {
-        navbarTogglerIcon.style.display = 'block';
-        closeIcon.style.display = 'none';
-    });
-});
