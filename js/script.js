@@ -37,11 +37,11 @@ counts.forEach((counter) => {
 });
 
 window.addEventListener("load", () => {
-    const topSection = document.getElementById("top_section");
+    const topSection = document.getElementById("hero_section");
     const verticalLines = document.querySelectorAll(".hero_vertical_line_1");
 
     if (topSection && verticalLines.length > 0) {
-        const sectionHeight = topSection.offsetHeight + 17;
+        const sectionHeight = topSection.offsetHeight + 45;
 
         verticalLines.forEach((line) => {
             line.style.height = `${sectionHeight}px`;
