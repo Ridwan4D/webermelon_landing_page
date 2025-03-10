@@ -424,7 +424,8 @@
 
     /* ------------ hero section start here ------------ ----------*/
     #hero_section {
-        margin-top: 80px;
+        margin-top: 60px;
+        padding-top: 0;
     }
 
     .hero_header {

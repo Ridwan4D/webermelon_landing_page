@@ -107,18 +107,12 @@ body {
     padding: 11px 27.5px;
 }
 
-.mt_32{
+.mt_32 {
     margin-top: 32px;
 }
+
 /* common style end */
-#top_section {
-    height: auto;
-    background-image: url('../images/Rectangle_220.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 68px;
-}
+/* #top_section {} */
 
 /* ----------- nav section start -------------- */
 .navbar {
@@ -157,7 +151,13 @@ body {
 
 /* ----------- hero section start -------------- */
 #hero_section {
-    margin-top: 68px;
+    padding-top: 156px;
+    height: auto;
+    background-image: url('../images/Rectangle_220.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 68px;
 }
 
 .hero_header {
@@ -170,7 +170,7 @@ body {
 }
 
 .hero_portfolio_btn_1 {
-    padding: 16px 25px;
+    padding: 16px 35px;
 }
 
 .hero_portfolio_btn_2 {
@@ -350,9 +350,11 @@ body {
     padding: 3.5px 32px;
     margin-bottom: 14px;
 }
-.case_card_container{
+
+.case_card_container {
     gap: 80px;
 }
+
 .case_hr_line {
     height: 1px;
     left: -418px;
