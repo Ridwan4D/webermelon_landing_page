@@ -107,7 +107,9 @@ body {
     padding: 11px 27.5px;
 }
 
-
+.mt_32{
+    margin-top: 32px;
+}
 /* common style end */
 #top_section {
     height: auto;
@@ -348,7 +350,9 @@ body {
     padding: 3.5px 32px;
     margin-bottom: 14px;
 }
-
+.case_card_container{
+    gap: 80px;
+}
 .case_hr_line {
     height: 1px;
     left: -418px;
@@ -449,7 +453,7 @@ body {
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
-    margin-top: 20px;
+    margin-top: 32px;
 }
 
 .swiper-pagination-bullet {
