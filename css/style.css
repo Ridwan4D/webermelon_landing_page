@@ -119,6 +119,13 @@ body {
     margin-bottom: 18px;
 }
 
+.bg_properties {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 /* common style end */
 /* #top_section {} */
 
@@ -162,9 +169,6 @@ body {
     padding-top: 156px;
     height: auto;
     background-image: url('../images/Rectangle_220.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     padding-bottom: 68px;
 }
 
@@ -261,13 +265,6 @@ body {
     margin-top: 156px;
     gap: 52px;
 }
-
-.bg_properties {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 /* ----------- complete project section end -------------- */
 
 /* ----------- service section start -------------- */
