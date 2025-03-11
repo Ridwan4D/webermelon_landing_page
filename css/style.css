@@ -111,6 +111,10 @@ body {
     margin-top: 32px;
 }
 
+.mt_64 {
+    margin-top: 64px;
+}
+
 /* common style end */
 /* #top_section {} */
 
@@ -340,7 +344,6 @@ body {
 }
 
 .case_study_body {
-    margin-top: 64px;
     gap: 64px;
 }
 
@@ -446,7 +449,6 @@ body {
 }
 
 .testimonial_body {
-    margin-top: 18px;
     color: #5E5E5E;
 }
 
