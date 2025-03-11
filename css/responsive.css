@@ -97,6 +97,10 @@
         margin-top: 80px;
     }
 
+    #service_section .hero_hr {
+        width: 96%;
+    }
+
     /* ------- service section end ----------*/
     /* ------- case study section start ----------*/
     #case_study_section {
@@ -110,11 +114,12 @@
     }
 
     .accelerate_container {
+        padding: 15px;
         border-radius: 0;
     }
 
     .accelerate_heading {
-        font-size: 24px;
+        font-size: 35px;
     }
 
     /* .accelerate_left,
@@ -132,6 +137,14 @@
 
     .accelerate_container {
         border-radius: 0;
+    }
+
+    .accelerate_v_line {
+        top: -29px;
+    }
+
+    .accelerate_v_line_2 {
+        right: 5px;
     }
 
     /* ------- accelerate section end ----------*/
@@ -164,7 +177,8 @@
 
     /* ---------hero section start -------- ----------*/
     #hero_section {
-        margin-top: 30px;
+        margin-top: 90px;
+        padding-top: 0;
     }
 
     /* ---------hero section start -------- ----------*/
@@ -234,6 +248,10 @@
         border-radius: 0;
     }
 
+    .accelerate_heading {
+        font-size: 26px;
+    }
+
     .accelerate_container {
         gap: 30px;
     }
@@ -250,6 +268,13 @@
         height: 65vh;
         object-fit: cover;
         border-radius: 8px;
+    }
+
+    /* .accelerate_v_line {
+        top: 15px;
+    } */
+    .accelerate_v_line_2 {
+        right: 0;
     }
 
     .accelerate_hr_line_2 {
@@ -319,7 +344,7 @@
         }
 
         100% {
-            top: 90px;
+            top: 65px;
             height: 100%;
             width: 100%;
         }
@@ -360,7 +385,8 @@
 
     /* --------- hero section start -------- ----------*/
     #hero_section {
-        margin-top: 100px;
+        margin-top: 65px;
+        padding-top: 10px;
     }
 
     /* --------- hero section end -------- ----------*/
@@ -456,7 +482,7 @@
 
     /* ------- observe section start ----------*/
     #complete_project_section {
-        padding: 50px 30px;
+        padding: 50px 0px;
     }
 
     .observe_body {
@@ -488,6 +514,10 @@
         padding: 50px 0;
     }
 
+    .service_card_container {
+        padding: 0;
+    }
+
     .service_left_side {
         margin-bottom: 50px;
     }
@@ -512,6 +542,10 @@
 
     .case_study_body {
         margin-top: 40px;
+        gap: 35px;
+    }
+
+    .case_card_container {
         gap: 35px;
     }
 
@@ -544,10 +578,6 @@
         gap: 30px;
     }
 
-    .accelerate_heading {
-        font-size: 26px;
-    }
-
     .accelerate_left,
     .accelerate_right {
         width: 100% !important;
@@ -563,7 +593,7 @@
 
     /* ------- footer section start ----------*/
     .footer_container {
-        padding: 20px;
+        padding: 20px 10px;
     }
 
     .footer_heading {

@@ -115,6 +115,10 @@ body {
     margin-top: 64px;
 }
 
+.mb_18 {
+    margin-bottom: 18px;
+}
+
 /* common style end */
 /* #top_section {} */
 
@@ -329,7 +333,7 @@ body {
 }
 
 #service_section .hero_hr {
-    width: 98%;
+    width: 109%;
     background: linear-gradient(to top, rgba(221, 236, 255, 0.171), rgba(255, 255, 255, 0.123));
 }
 
